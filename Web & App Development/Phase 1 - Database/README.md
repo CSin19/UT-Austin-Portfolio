@@ -1,13 +1,12 @@
-# APAD Project1 - Description
+# APAD Project Description
 ## Application Utilities in Python
-
-- Project1: Develops the basic data model in SQL for storing out application’s data, followed by python utility functions to manipulate the data. 
-- Project2: Deploys the application to the "cloud" (Googel App Engine’s appspot.com site) and present’s a web interface to the application. 
-- Project3: Develop an Android app (written in Kotlin) to access the site.
 
 The narrative: There are a lot of venues for pickup sports in Austin but there is no way to find out where there is one now (or in the future) that one can join. Enter PickupSport site that allows you to either start a new pickup sport event
 or join one that somebody already started
 
+- Phase 1: Develops the basic data model in SQL for storing out application’s data, followed by python utility functions to manipulate the data. 
+- Phase 2: Deploys the application to the "cloud" (Googel App Engine’s appspot.com site) and present’s a web interface to the application. 
+- Phase 3: Develop an Android app (written in Kotlin) to access the site.
 
 ### 1.1 1. Things of Interest
 1. Users: These are people who use the application
