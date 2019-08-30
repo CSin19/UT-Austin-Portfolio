@@ -18,7 +18,7 @@ App Features:
   • Join an event
   • Show events the user has currently joined in
 
-Project Documentation is available at http://apad-project2.appspot.com/info) 
+Project Documentation is available at http://apad-project2.appspot.com/info
 
 The site provides the following details about our project:
 1. The narrative for our project
