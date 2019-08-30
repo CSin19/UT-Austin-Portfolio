@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+{% autoescape true %}
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- [START css] -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- [END css] -->
+    <style type="text/css">
+      body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #f5f5f5;
+      }
+      .col-md-6{
+        margin-bottom: 10px;
+      }
+      .caption > p{
+        margin-top: 15px;
+      }
+      .col-md-4{
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+        <h2>Info</h2> 
+        <a href="/" class="btn btn-info" role="button">Back to Main Page</a>
+        <hr>
+        <h3>1. Narrative</h3>
+        <p>Pickup Sport is a both website and app that connect you and others with pickup sport events in Austin. There are a lot of venues for pickup sports in Austin but there is no way to find out where there is one now (or in the future) that one can join. The idea is pretty simple, search the venue or the event that you like, then, join it!</p>
+        <h3>2. How to use <a href="http://apad-project2.appspot.com/">our website</a></h3> 
+         <div class="row">
+            <div class="col-md-6">
+              <div class="img-thumbnail">
+                  <img src="/static/img/index.png" alt="Index" style="width:100%">
+                  <div class="caption">
+                    <p style="text-align:center">Index Page</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="img-thumbnail">
+                  <img src="/static/img/login.png" alt="Login" style="width:100%">
+                  <div class="caption">
+                    <p style="text-align:center">Login Page</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="img-thumbnail">
+                  <img src="/static/img/register.png" alt="Register" style="width:100%">
+                  <div class="caption">
+                    <p style="text-align:center">Register Page</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="img-thumbnail">
+                  <img src="/static/img/home.png" alt="Home" style="width:100%">
+                  <div class="caption">
+                    <p style="text-align:center">Home Page</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="img-thumbnail">
+                  <img src="/static/img/search.png" alt="Search" style="width:100%">
+                  <div class="caption">
+                    <p style="text-align:center">Search Event Page</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="img-thumbnail">
+                  <img src="/static/img/searchresult.png" alt="SearchResult" style="width:100%">
+                  <div class="caption">
+                    <p style="text-align:center">Search Event Result Page</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="img-thumbnail">
+                  <img src="/static/img/join.png" alt="Join" style="width:100%">
+                  <div class="caption">
+                    <p style="text-align:center">Join Event Page</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="img-thumbnail">
+                  <img src="/static/img/joinresult.png" alt="JoinResult" style="width:100%">
+                  <div class="caption">
+                    <p style="text-align:center">Join Event Result Page</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="img-thumbnail">
+                  <img src="/static/img/show.png" alt="ShowJoinResult" style="width:100%">
+                  <div class="caption">
+                    <p style="text-align:center">Show Joined Page</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="img-thumbnail">
+                  <img src="/static/img/index.png" alt="Logout" style="width:100%">
+                  <div class="caption">
+                    <p style="text-align:center">Logout to Index Page</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="img-thumbnail">
+                  <img src="/static/img/adminlogin.png" alt="AdminLogin" style="width:100%">
+                  <div class="caption">
+                    <p style="text-align:center">Admin Login Page</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="img-thumbnail">
+                  <img src="/static/img/adminhome.png" alt="AdminHome" style="width:100%">
+                  <div class="caption">
+                    <p style="text-align:center">Admin Home Page</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="img-thumbnail">
+                  <img src="/static/img/addvenue.png" alt="AddVenue" style="width:100%">
+                  <div class="caption">
+                    <p style="text-align:center">Add Venue Page</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="img-thumbnail">
+                  <img src="/static/img/deletevenue.png" alt="DeleteVenue" style="width:100%">
+                  <div class="caption">
+                    <p style="text-align:center">Delete Venue Page</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="img-thumbnail">
+                  <img src="/static/img/deleteuser.png" alt="DeleteUser" style="width:100%">
+                  <div class="caption">
+                    <p style="text-align:center">Delete User Page</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="img-thumbnail">
+                  <img src="/static/img/deleteevent.png" alt="DeleteEvent" style="width:100%">
+                  <div class="caption">
+                    <p style="text-align:center">Delete Event Page</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+        <h3>3. How to use our app</h3>
+        <div class="row">
+            <div class="col-md-4">
+              <div class="img-thumbnail">
+                  <img src="/static/img/IndexApp.png" alt="Index" style="width:100%">
+                  <div class="caption">
+                    <p style="text-align:center">Index Page</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="img-thumbnail">
+                  <img src="/static/img/Loginapp.png" alt="Login" style="width:100%">
+                  <div class="caption">
+                    <p style="text-align:center">Login Page</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="img-thumbnail">
+                  <img src="/static/img/RegisterApp.png" alt="Register" style="width:100%">
+                  <div class="caption">
+                    <p style="text-align:center">Register Page</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="img-thumbnail">
+                  <img src="/static/img/HomeApp.png" alt="Home" style="width:100%">
+                  <div class="caption">
+                    <p style="text-align:center">Home Page</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="img-thumbnail">
+                  <img src="/static/img/SearchEvent.png" alt="Search" style="width:100%">
+                  <div class="caption">
+                    <p style="text-align:center">Search Event Page</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="img-thumbnail">
+                  <img src="/static/img/SearchEventResult.png" alt="SearchResult" style="width:100%">
+                  <div class="caption">
+                    <p style="text-align:center">Search Event Result Page</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="img-thumbnail">
+                  <img src="/static/img/JoinEvent.png" alt="Join" style="width:100%">
+                  <div class="caption">
+                    <p style="text-align:center">Join Event Page</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="img-thumbnail">
+                  <img src="/static/img/JoinEventResult.png" alt="JoinResult" style="width:100%">
+                  <div class="caption">
+                    <p style="text-align:center">Join Event Result Page</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="img-thumbnail">
+                  <img src="/static/img/ShowEvent.png" alt="ShowJoinResult" style="width:100%">
+                  <div class="caption">
+                    <p style="text-align:center">Show Joined Page</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+        <h3>4. Download our app</h3>
+        <a href="/static/app-release.apk">Our App</a>
+        <p>Download Pickup Sport App to find the sport events near you! </p>
+        <h3>5. About Us</h3>
+        <a href="/about" class="btn btn-info" role="button">About Us</a>
+    </div>
+  </body>
+</html>
+{% endautoescape %}

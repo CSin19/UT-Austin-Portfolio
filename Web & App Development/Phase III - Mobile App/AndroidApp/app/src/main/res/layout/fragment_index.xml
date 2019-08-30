@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".IndexFragment">
+
+
+    <Button
+            android:id="@+id/index_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/index_login"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="120dp"
+            app:layout_constraintStart_toStartOf="@+id/pickup_sport"
+            app:layout_constraintTop_toBottomOf="@+id/pickup_sport"/>
+
+    <Button
+            android:id="@+id/index_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="212dp"
+            android:text="@string/register"
+            app:layout_constraintStart_toStartOf="@+id/pickup_sport"
+            app:layout_constraintTop_toBottomOf="@+id/pickup_sport"
+            android:layout_marginStart="44dp"/>
+    <TextView
+            android:id="@+id/pickup_sport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pickup_sport"
+            android:textSize="30sp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="124dp"
+            android:layout_marginStart="88dp"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

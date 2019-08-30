@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+{% autoescape true %}
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- [START css] -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- [END css] -->
+    <style type="text/css">
+      body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #f5f5f5;
+      }
+      #cardImage{
+        padding-top: 10px;
+        margin-left: 40%;
+      }
+      .card-body{
+        text-align: center;
+      }
+      #info{
+        margin-top: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+        <h2>About Us </h2> 
+        <a href="/" class="btn btn-info" role="button">Back to Main Page</a>
+        <hr>
+        <h3>Our App features</h3>
+        <p>1. Create an account
+          <br>
+           2. Login into an account
+          <br>
+           3. Logout from an account
+          <br>
+           4. Search for events
+          <br>
+           5. Join an event
+          <br>
+           6. Show events the user has currently joined in
+        </p>
+        <h3>Our team</h3>
+        <div class = "row">
+          <div class="col-md-6">
+            <div class="card">
+              <img class="card-img-top" src="/static/img/girl2.png" id="cardImage" style="width:20%">
+              <div class="card-body">
+                <h4 class="card-title">Chetna Singhal</h4>
+                <p class="card-text">UT Austin, MSITM Class of 2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <img class="card-img-top" src="/static/img/girl1.png" id="cardImage" style="width:20%">
+              <div class="card-body">
+                <h4 class="card-title">Pei-Hsin Ho</h4>
+                <p class="card-text">UT Austin, MSITM Class of 2020</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="/info" class="btn btn-info" id="info" role="button">Info</a>
+    </div>
+  </body>
+</html>
+{% endautoescape %}

@@ -1,0 +1,9 @@
+# [START gae_python37_cloudsql_config]
+runtime: python37
+
+env_variables:
+  CLOUD_SQL_USERNAME: Chetna
+  CLOUD_SQL_PASSWORD: Chetna
+  CLOUD_SQL_DATABASE_NAME: PickupSport
+  CLOUD_SQL_CONNECTION_NAME: apad-project2:us-central1:pickupsport2019
+# [END gae_python37_cloudsql_config]

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GetAppEngine</string>
+    <string name="login">Login</string>
+    <string name="login_button">Login</string>
+    <string name="welcome">Welcome</string>
+    <string name="search_button">Search Event</string>
+    <string name="join_button">Join Event</string>
+    <string name="show_button">Show Joined Event</string>
+    <string name="pickup_sport">Pickup Sport</string>
+    <string name="index_login">Login</string>
+    <string name="index_register">Register</string>
+    <string name="logout_button">Logout</string>
+    <string name="register">Register</string>
+    <string name="register_button">Register</string>
+    <string name="login_signup">Sign Up</string>
+</resources>

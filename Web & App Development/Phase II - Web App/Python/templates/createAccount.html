@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/static/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Register</h1>
+      <br>
+      <form action="" method="post">
+          <input type="text" placeholder="Username" name="username" value="{{
+          request.form.username }}">
+          <input type="text" placeholder="Phone" name="phone" value="{{
+          request.form.phone }}">
+          <input type="text" placeholder="Email" name="email" value="{{
+          request.form.email }}">
+         <input type="text" placeholder="Password" name="password" value="{{
+          request.form.password }}">
+          <input type="text" placeholder="Zipcode" name="zipcode" value="{{
+          request.form.zipcode }}">
+        <input class="btn btn-default" type="submit" value="Register">
+      </form>
+      {% if error %}
+        <p class="error"><strong>Error:</strong> {{ error }}
+      {% endif %}
+    </div>
+  </body>
+</html>

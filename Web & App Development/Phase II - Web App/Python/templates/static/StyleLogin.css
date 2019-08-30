@@ -1,0 +1,43 @@
+body {
+    background-image: none;
+    font-family: 'Raleway', sans-serif;
+    background-size: cover;
+    text-align: center;
+    padding: 30px;
+}
+.container{
+    height: 250px;
+    opacity: 0.8;
+    border-radius: 8px;
+    width: 100%; 
+    margin: auto;
+    display: inline-block;
+    padding: 50px;
+}
+
+.but1{
+    margin-left: 35px;
+    margin-inline: 20 px;
+}
+
+.login-form{
+    padding:0px 25px;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    width:100%;
+}
+h1 {
+    margin-bottom: 20px;
+}
+
+input{
+    height: 90px;
+    width: 30px;
+}
+hr{
+    width: 200px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin: 0 auto;
+}

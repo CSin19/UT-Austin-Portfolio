@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PickupSport Admin Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="static/StyleLogin.css">
+  </head>
+  <body>
+    <div style="float:inline-start">
+    <div class="but1">
+
+        <a href="/adminLogout"><button class="btn-primary btn-large pull-right" type="submit" value="logout">Logout</button></a>
+    </div>
+    <div class="but1">
+      <a href="/adminHome"><button class="btn-primary btn-large ml-3" type="submit" value="home">Home</button></a>    
+    </div>
+    </div>
+    <div class="container" style="max-width:500px;margin:auto;">
+     
+      <div class="center">
+        <h1 style="text-align: center">PickupSport</h1>
+        
+      <center>
+      <div class="control-group">  
+        <div class="input-prepend">
+        <hr><br><br>
+        
+        <h4>Admin Home</h4>  
+        <a href="/adminAddVenue"><button class="btn-primary btn-large btn-block" type="submit" value="addvenue">Add Venue</button></a>
+        <br><br>
+        <a href="/adminDeleteVenue"><button class="btn-primary btn-large btn-block" type="submit" value="deletevenue">Delete Venue</button></a>
+        <br><br>
+        <a href="/adminDeleteUser"><button class="btn-primary btn-large btn-block" type="submit" value="deleteuser">Delete User</button></a>
+        <br><br>
+        <a href="/adminDeleteEvent"><button class="btn-primary btn-large btn-block" type="submit" value="deleteevent">Delete Event</button></a>
+        </div>
+      </div>
+    </center>
+    </div>
+      {% if error %}
+        <p class="error"><strong>Error:</strong> {{ error }}
+      {% endif %}
+    </div>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>

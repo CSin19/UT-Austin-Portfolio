@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="24dp"
+              android:paddingTop="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="132dp"
+        android:text="Search Events"
+        android:textAllCaps="true"
+        android:textSize="16sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/venuenamelabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:hint="Enter Venue Name">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/venuenameinput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/eventdatelabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:hint="Enter Date YYYY-MM-DD">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/eventdateinput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <!-- Snippet from "Add buttons" section goes here. -->
+
+    <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/eventstarttimelabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:hint="Enter Start time 24 hr format">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/eventstarttimeinput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/eventendtimelabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:hint="Enter End time 24 hr format">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/eventendtimeinput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+            android:text="Search"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:id="@+id/search_button"
+            ></Button>
+
+</LinearLayout>
