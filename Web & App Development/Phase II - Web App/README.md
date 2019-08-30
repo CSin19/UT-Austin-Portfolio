@@ -8,6 +8,7 @@ The goes of this phase is to deploy our app on the web so users can access it us
 3. Using SQL-based database called Google Cloud SQL 
 
 1.2 Browser UI
+
 Provide a simple UI to access the features that we worked out in Phase 1. For example, there are two “routes” that the app provides:
 
 1. http://apad-project2.appspot.com/: Allows users to:
