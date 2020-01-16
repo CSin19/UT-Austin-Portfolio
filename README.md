@@ -18,8 +18,8 @@ Analysed 30,000 user reviews from Goodreads for 100 NYT bestsellers using Lift, 
 6. **Emerging Technologies** – Pedometer App | IoT, Micro:bit, Raspberry Pi, MQTT, Python, Kotlin, ML | Fall 2019\
 Built an Android App & integrated with Micro:bit & Raspberry Pi devices to help users track their daily step counts & recommend personalized fitness goals based on past performance & current weather conditions      
 
-7.**Big Data & Distributed Programming** – Song Recommender System | Apache Spark, MapReduce, Python | Fall 2019\
+7. **Big Data & Distributed Programming** – Song Recommender System | Apache Spark, MapReduce, Python | Fall 2019\
 Built a song recommender system using MapReduce framework & cosine similarity algorithm on dataset of ~1 mil unique users & their listening history
 
-8. ** Data Management – Database Sharding | Database Design, Business Application | Fall 2019\
+8. **Data Management** – Database Sharding | Database Design, Business Application | Fall 2019\
 Wrote a report to explain database sharding, its application & benefits to business stakeholders 
